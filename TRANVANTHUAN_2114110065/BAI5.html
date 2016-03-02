@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bài 5 Chương 1 </title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend> Thông tin cá nhân:</legend>
+      Họ tên <input type="text"><br>
+      Email <input type="text"><br>
+      Ngày sinh <input type="text"><br>
+      Giới tính <input type="radio" name="gt" value="male"checked>Male
+      <input type="radio" name="gt" value="Female"checked>Female<br>
+      Trình độ <input type="checkbox" name="DH" value="Dai Hoc">Đại Học
+      <input type="checkbox" name="CD" value="Cao Dang">Cao Đẳng<br>
+      Hình ảnh cá nhân <input type="file">
+    </fieldset>
+    <dev> Chọn khóa học</dev>
+    <select>
+      <optgroup label="Multimedia">
+        <option value="Windown Media">Windown Media<br>
+        <option value="Jet Audio 9">Jet Audio 9<br>
+      </optgroup>
+      <optgroup label="Operation System">
+        <option value="Windows XP">Windows XP<br>
+        <option value="Window XP">Window XP<br>
+        <option value="Windows Vista">Windows Vista<br>
+      </optgroup>
+      <optgroup label="Office">
+      </optgroup>
+    </select><br>
+    <p> Góp ý </p>
+    <p> 
+      <form action="action_page.php">
+      <textarea name="message" rows="10"cols="30">
+        </textarea>
+      </form>  
+    </p>
+      <input type="submit">
+        
+  </form>
+</body>
+</html>
