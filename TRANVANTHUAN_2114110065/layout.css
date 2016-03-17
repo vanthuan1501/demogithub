@@ -1,0 +1,48 @@
+#Container{
+	width:69%;
+	background:red;
+	margin:auto;
+	border: 2px solid;
+}
+header{
+	width:100%px;
+	background:#bbb;
+	min-height:50px;
+}
+list{
+	width:100px;
+	background: #0DD;
+	min-height:95px;
+}
+
+nav{
+	width:100%;
+	background:#ffa;
+	min-height:100px;
+}
+#content{
+	width:100%;
+	background: #0F0;	
+	padding:15px;
+	overflow:auto;
+	box-sizing:border-box;
+}
+#recycle{
+	width:20%;
+	background:#abc;
+	min-height:350px;
+	float:left;
+	margin:30px;
+}
+.section{	
+	width:20%;
+	background:#a6e;
+	min-height:350px;
+	float:left;
+	margin:30px;
+}
+footer{
+	background:#111;
+	width:100%;
+	clear:left;
+}
