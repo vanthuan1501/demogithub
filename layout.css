@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#waper {
+	width:90%;
+	margin:0px auto;
+	background:#f6f6f6;
+		border-style:dotted;
+		clear: left;
+		overflow:hidden;
+		padding:20px;
+}
+.cot{
+	width:30%;
+	margin:10px;
+	padding:10px;
+	border:solid;
+	margin-right:20px;
+	height:200px;
+	float:left;
+	box-sizing:border-box;
+}
+.cot1{
+	border-style:solid dashed;
+	background:#113;
+}
+.cot2{
+	border:none;
+	background-color:#765;
+	border-radius:25px;
+	box-shadow: 10px 10px #248;
+}
+#picture-top-right {
+	position:absolute;
+	right:3.5%;
+	top:0px; 
+}
+.cot4{
+	border:solid #00A 2px;
+	width: 97%;
+	background:#ADC172;
+	text-align:center;
+	margin:10px;
+}
+.clear{
+	clear:both;
+}
