@@ -1,47 +1,127 @@
 @charset "utf-8";
 /* CSS Document */
-
-#waper {
-	width:90%;
-	margin:0px auto;
-	background:#f6f6f6;
-		border-style:dotted;
-		clear: left;
-		overflow:hidden;
-		padding:20px;
+#trangchu{
+	
 }
-.cot{
-	width:30%;
-	margin:10px;
-	padding:10px;
-	border:solid;
-	margin-right:20px;
-	height:200px;
-	float:left;
-	box-sizing:border-box;
-}
-.cot1{
-	border-style:solid dashed;
-	background:#113;
-}
-.cot2{
-	border:none;
-	background-color:#765;
-	border-radius:25px;
-	box-shadow: 10px 10px #248;
-}
-#picture-top-right {
-	position:absolute;
-	right:3.5%;
-	top:0px; 
-}
-.cot4{
-	border:solid #00A 2px;
-	width: 97%;
-	background:#ADC172;
+#menu ul{
+	background:#360;
 	text-align:center;
-	margin:10px;
+	list-style-type:none;
+	width:350px;
 }
-.clear{
-	clear:both;
+#menu ul li{
+	display:inline-table;
+	width:80px;	
+	height:40px;
+	line-height:40px;
+	color:#ffa;
+	
+	
+}
+#menu ul li a{
+	color:#3F0;
+	text-decoration:none;
+	display:block;
+
+}
+
+
+
+
+
+#menu1 ul{
+	background:#F98;
+	list-style-type:none;
+	width:250px;
+}
+#menu1 ul li{
+	height:40px;
+	line-height:40px;
+	color:#F00;
+	border-bottom:1px solid #936;
+	
+}
+#menu1 ul li a{
+	color:#F00;
+	text-decoration:none;
+	display:block;
+}
+#menu1 ul li a:hover{
+	background:#aaa;
+	color:#CCC;
+}
+
+
+
+#menu2 ul{
+	background:#935;
+	text-align:center;
+	list-style-type:none;
+	width:auto;	
+}
+#menu2 ul li{
+	display:inline-table;
+	width:150px;	
+	height:40px;
+	line-height:40px;
+	color:#006;
+}
+#menu2 ul li a{
+	color:#3F0;
+	text-decoration:none;
+	display:block;
+}
+#menu2 ul li a:hover{
+	background:#F00;
+	color:#999;
+}
+#menu2 ul li >.sup-menu{
+	display:none;
+}
+#menu2 ul li:hover	.sup-menu{
+	display:block;
+}
+
+
+
+
+
+
+
+
+#menu3 ul{
+	background:#F98;
+	list-style-type:none;
+	width:250px;
+}
+#menu3 ul li{
+		
+	width:auto;
+	height:40px;
+	line-height:40px;
+	color:#936;
+	border-bottom:1px solid #936;
+	position:relative;
+
+}
+#menu3 .sup-menu3{
+	left:250px;
+	top:0px;
+	position:absolute;
+}
+#menu3 ul li a{
+	color:#006;
+	text-decoration:none;
+	display:block;
+}
+#menu3 ul li a:hover{
+	background:#0C6;
+	color:#0C6;
+}
+#menu3 ul li >.sup-menu3{
+	display:none;
+}
+#menu3 ul li:hover .sup-menu3{
+	display:block;
+	
 }
